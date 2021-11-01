@@ -1,7 +1,7 @@
 # DershaneOtomasyonu-WindowsFormApp
 
 <h3 align="center">Login Sayfası</h3>
-![capture_20211101145344841](https://user-images.githubusercontent.com/72195347/139668119-d632bcd8-71bc-4d46-8678-fe2539161169.jpg)
+<img src="https://user-images.githubusercontent.com/72195347/139668119-d632bcd8-71bc-4d46-8678-fe2539161169.jpg">
 <h3 align="center">Anasayfa</h3>
 ![capture_20211101145408825](https://user-images.githubusercontent.com/72195347/139668147-5e82647e-87e7-4457-a935-7e05e23e3120.jpg)
 <h3 align="center">Gider Sayfası</h3>
