@@ -45,12 +45,12 @@ namespace DataAccess
             {
                 MailMessage message = new MailMessage();
                 SmtpClient client = new SmtpClient();
-                client.Credentials = new System.Net.NetworkCredential("dershaneotomasyonotomesaj@gmail.com", "mustafaenesotomasyonodev");
+                client.Credentials = new System.Net.NetworkCredential("test@gmail.com", "test@gmail.com");
                 client.Port = 587;
                 client.Host = "smtp.gmail.com";
                 client.EnableSsl = true;
                 message.To.Add(teacher.Email);
-                message.From = new MailAddress("dershaneotomasyonotomesaj@gmail.com");
+                message.From = new MailAddress("test@gmail.com");
                 message.Subject = mailHeader;
                 message.Body = mailHeader;
                 client.Send(message);

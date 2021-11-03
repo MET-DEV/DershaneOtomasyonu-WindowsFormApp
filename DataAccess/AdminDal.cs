@@ -54,12 +54,12 @@ namespace DataAccess
             {
                 MailMessage message = new MailMessage();
                 SmtpClient client = new SmtpClient();
-                client.Credentials = new System.Net.NetworkCredential("dershaneotomasyonotomesaj@gmail.com","mustafaenesotomasyonodev");
+                client.Credentials = new System.Net.NetworkCredential("test@gmail.com","test");
                 client.Port = 587;
                 client.Host = "smtp.gmail.com";
                 client.EnableSsl = true;
                 message.To.Add(email);
-                message.From = new MailAddress("dershaneotomasyonotomesaj@gmail.com");
+                message.From = new MailAddress("test@gmail.com");
                 message.Subject="Parolanız";
                 message.Body = "Parolanız: "+bilgi.Password;
                 client.Send(message);
